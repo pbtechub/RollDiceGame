@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(205, 203, 203);
+}
+
+.outer-container {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .counter {
+    position: absolute;
+    right: 200px;
+   margin-left: 20px;
+} */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header span {
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: px;
+}
+.container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.btn {
+    padding: 30px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.ishold {
+    background-color: rgb(151, 205, 205);
+    color: grey;
+}
+
+.control-btn-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.control-btn {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.control-btn:first-child {
+    background-color: royalblue;
+}
+
+.control-btn:first-child:hover {
+    background-color: rgb(45, 94, 240);
+}
+
+.control-btn:nth-child(2) {
+    background-color: rgb(179, 102, 252);
+}
+
+.control-btn:nth-child(2):hover {
+    background-color: rgb(149, 61, 231);
+}
+
+.control-btn:nth-child(3) {
+    background-color: royalblue;
+}
+
+.control-btn:nth-child(3):hover {
+    background-color: rgb(45, 94, 240);
+}
+
+.model {
+    opacity: 0;
+}
+
+
+
+@media (max-width: 768px) {
+   
+    .header h1 {
+        font-size: 1.8rem;
+        
+    }
+    .counter {
+        right: 180px;
+    }
+    .outer-container p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .btn {
+        padding: 25px;
+        font-size: 1.4rem;
+    }
+
+    .control-btn {
+        padding: 12px 25px;
+        font-size: .9rem;
+        font-weight: 600;
+       
+    
+    }
+}
+
+@media (max-width: 560px) {
+   
+    .header h1 {
+        font-size: 1.4rem;
+        
+    }
+    .counter {
+        right: 180px;
+    }
+    .outer-container p {
+        font-size: .8rem;
+        text-align: center;
+    }
+    .btn {
+        padding: 15px;
+        font-size: 1.4rem;
+    }
+
+    .control-btn {
+        padding: 10px 20px;
+        font-size: .7rem;
+        font-weight: 600;
+       
+    
+    }
+}
